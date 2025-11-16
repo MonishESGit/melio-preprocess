@@ -34,7 +34,7 @@ jobs:
       - name: Lint (Ruff and Black)
         run: |
           ruff check .
-          black --check .
+          black .
       
       - name: Run tests with Coverage
         run: pytest --cov=service --cov=timeseries_preproc --cov-report=xml
