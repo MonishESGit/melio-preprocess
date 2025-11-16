@@ -1,0 +1,21 @@
+Metadata-Version: 2.4
+Name: timeseries-preproc
+Version: 0.1.0
+Summary: Preprocessing pipeline for multiple univariate time series (smoothing, arc normalization, peak annotation).
+Home-page: 
+Author: Monish
+Author-email: monish2work@gmail.com
+Requires-Python: >=3.9
+Requires-Dist: numpy>=1.20
+Requires-Dist: pandas>=1.3
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: pydantic
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Dynamic: author
+Dynamic: author-email
+Dynamic: provides-extra
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
