@@ -1,8 +1,7 @@
 # service/jobs.py
-import time
 import uuid
 from enum import Enum
-from typing import Optional, Dict, Any
+from typing import Optional, Dict
 
 class JobStatus(str, Enum):
     PENDING = "PENDING"

@@ -1,7 +1,7 @@
 # service/api_v2.py
 from fastapi import APIRouter, HTTPException
 from .models import PreprocessRequest, PreprocessResultResponse
-from .jobs import create_job, get_job, JobStatus
+from .jobs import create_job, JobStatus
 from .logging_utils import log_event
 from timeseries_preproc.pipeline import preprocess_csv
 
